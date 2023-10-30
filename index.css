@@ -1,0 +1,420 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+
+}
+.body{
+  background-color: white;
+}
+
+
+
+.navbar1{
+  background-color:black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  
+  
+ 
+  
+ 
+  
+ 
+}
+.logo1{
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.navlist{
+  list-style: none;
+  
+  
+ 
+
+}
+li{
+   display: inline-block;
+   padding: 5px 5px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+   font-size: 20px;
+    
+   border-radius: 10px;
+   margin-top: 20px;
+   margin-right: 20px;
+   cursor: pointer;
+   color: white;
+}
+.contact{
+  margin-right: 25px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(89, 89, 144);
+  color: white;
+  cursor: pointer;
+  }
+  .demo{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+  }
+  .img{
+    width: 70%;
+    height: 600px;
+    background:linear-gradient(red,black);
+
+  }
+ 
+
+  .ooty,.goa,.mysore{
+    display: inline-block;
+    
+     font-size: 32px;
+     font-weight: 800;
+     color: whitesmoke;
+     background:transparent ;
+     border-radius: 15px;
+     font-style: oblique;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 10px;
+  }
+  .ooty1,.goa1,.mysore1{
+    display: inline-block;
+    
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    background-color: orange;
+   
+    padding: 10px;
+    cursor: pointer;
+
+  }
+  .map{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background-image: url(https://images.pond5.com/3d-earth-globe-map-india-011449063_prevstill.jpeg);
+    background-repeat: no-repeat;
+    font-weight: 600;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+
+
+  }
+  .inner{
+    background-color: white;
+    height: 200px;
+    margin-bottom: 0;
+
+  }
+  .login{
+    color: white;
+  }
+  .maindiv{
+    width: 80%;
+    height: 600px;
+    position: relative;
+   
+    margin: auto;
+  }
+  .color{
+    position: absolute;
+   
+   
+    background-image: url(https://vskills.in/certification/blog/wp-content/uploads/2015/01/structure-of-a-news-report.jpg);
+    width: 100%;
+    height: 300px;
+    margin: auto;
+     color:white;
+     font-size: 50px;
+    font-weight: 500;
+    font-style: initial;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .firstimg{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 50px;
+
+  }
+  .firstimgpara{
+    position: absolute;
+    color:darkblue;
+    width: 400px;
+    margin-top: 510px;
+    margin-left: 50px;
+    font-weight: 500;
+    font-style: inherit;
+    font-size: 20px;
+
+  }
+ .secondimg{
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  margin-left: 650px;
+  margin-top: 100px;
+
+ }
+ .secondimgpara{
+  position: absolute;
+  color:darkblue;
+  width: 400px;
+  font-weight: 500;
+    font-style: inherit;
+    font-size: 20px;
+    margin-top: 510px;
+    margin-left: 750px;
+
+ }
+ .firstimg:hover {
+  opacity:0.5;
+ }
+ .secondimg:hover {
+  opacity:0.5;
+ }
+ .puzzlemain{
+  position: relative;
+  width: 100%;
+  height: 400px;
+ 
+
+ }
+ .puzzlecolor{
+  position: absolute;
+  width: 80%;
+ 
+  height:250px;
+  background-color: darkblue;
+  margin-left: 100px;
+  margin-top: 100px;
+
+ }
+ .puzzleimg{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+ }
+ .puzzlepara{
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top:200px;
+ }
+ .svgimg{
+  height: 50px;
+  width: 50px;
+ } 
+ .trips{
+  color: darkblue;
+  text-align: center;
+ }
+
+ .tripscards{
+  display: flex;
+  justify-content: space-between;
+  
+ }
+
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 16px 16px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  height: 300px;
+  width: 30%;
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.puzzlelink{
+  text-decoration: none;
+  color: white;
+  
+}
+.alltripbutton{
+  text-align: center;
+}
+.tripbutton{
+  background-color: orange;
+  border-radius: 10PX;
+  padding: 10PX;
+  color: white;
+  border: none;
+}
+.local1{
+  display:grid;
+  grid-template-columns: auto auto;
+}
+.localhead{
+  padding-left: 100px;
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: darkblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.localpara{
+  height: 100px;
+  width: 60%;
+  margin: auto;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.localbutton{
+  background-color: orange;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  margin-left: 350px;
+}
+.video{
+  margin-left: 60px;
+}
+.lastspan{
+  margin-left: 400px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 600 ;
+}
+.end{
+  width: 100%;
+  height: 600px;
+  
+  position: relative;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/216/697/281/fields-landscapes-nature-planet-wallpaper-preview.jpg);
+  background-size: cover;
+}
+.cities{
+ 
+  position: absolute;
+  width: 250px;
+  height: 300px;
+
+ 
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.endcity{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+.icons{
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 150px;
+  height: 60px;
+  width: 300px;
+  
+  display: flex;
+  justify-content: space-between;
+
+}
+.icon1{
+  height: 60px;
+  width: 60px;
+}
+.line{
+  position: absolute;
+  width: 80%;
+  margin-top:420px;
+  margin-left: 100px;
+}
+.rights{
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 460px;
+  margin-left:170px ;
+}
+.guidelines{
+  
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 400px;
+
+}
+.guidelines1{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  
+
+
+}
+.endimg{
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  margin-left: 800px;
+ 
+}
+.endpara{
+  position: absolute;
+  color: white;
+  width: 300px;
+  height: 50px;
+  margin-left: 800px;
+  margin-top: 260px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.india{
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  margin-left: 800px;
+  margin-top: 330px;
+}
+.google{
+  position: absolute;
+  
+ 
+  
+
+  height: 100px;
+  width: 300px;
+  margin-top: 330px;
+  margin-left: 1090px;
+}
+.apple{
+  height: 80px;
+  width: 300px;
+}
